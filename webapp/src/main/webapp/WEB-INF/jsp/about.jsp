@@ -7,8 +7,8 @@
 
 <body>
 <div class="container">
-    <h2>My ${greeting}</h2>
-
+    <h2>ABOUT</h2>
+${about}
 </div>
 </body>
 
