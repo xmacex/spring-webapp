@@ -115,9 +115,7 @@ http://www.springframework.org/schema/security/spring-security-3.2.xsd">
         <beans:property name="userDetailsService" ref="staticUserDetailsService"/>
     </beans:bean>
 
-    <!-- removed as name collided
-    <beans:bean id="userDetailsService"  name="userAuthenticationProvider" class="org.proactum.skal.webapp.security.AuthenticationUserDetailsGetter" />
-    -->
+
     <beans:bean id="passwordEncoder" class="org.springframework.security.authentication.encoding.ShaPasswordEncoder">
         <beans:constructor-arg index="0" value="256"/>
     </beans:bean>
