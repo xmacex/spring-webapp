@@ -1,5 +1,4 @@
-<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
-
+<%@ include file="../../init.jspf" %>
 <c:if test="${not empty param.direct}" >
 <c:remove scope="session" var="SPRING_SECURITY_REQUEST_KEY"/>
 </c:if>

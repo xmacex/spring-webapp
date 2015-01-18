@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-	- DispatcherServlet application context for PetClinic's web tier.
+	- DispatcherServlet application context for web tier.
 -->
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
@@ -44,18 +44,7 @@
 
     <!-- with tiles -->
 
-    <!-- Resolves views selected for rendering by @Controllers to .jsp resources
-        in the /WEB-INF/views directory -->
-<!--
-    <bean id="viewResolver" class="org.springframework.web.servlet.view.tiles3.TilesViewResolver">
-        <property name="prefix" value="/WEB-INF/jsp/" />
-        <property name="suffix" value=".jsp" />
-            </bean>
-    -->
 
-<!--
-    <import resource="classpath:spring/jstl-view.xml" />
--->
     <import resource="classpath:spring/tiles-view.xml" />
 
 
