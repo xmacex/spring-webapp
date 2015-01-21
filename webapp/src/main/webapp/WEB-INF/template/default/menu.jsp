@@ -23,5 +23,15 @@ Menu
             <spring:url value="/login" var="loginUrl" htmlEscape="true"/>
             <a href="${loginUrl}">Login</a>
         </li>
+
+        <li>
+                    <spring:url value="/formexample" var="feUrl" htmlEscape="true"/>
+                    <a href="${feUrl}">Form Example</a>
+                </li>
+
+        <li>
+            <spring:url value="/numberlist/start" var="nlUrl" htmlEscape="true"/>
+            <a href="${nlUrl}">Numberlist</a>
+        </li>
     </ul>
 </div>
