@@ -52,6 +52,9 @@ http://www.springframework.org/schema/security/spring-security-3.2.xsd">
         <intercept-url pattern="/numberlist/**"
                        access="hasAnyRole('ROLE_ANONYMOUS','ROLE_GUEST')" />
 
+        <intercept-url pattern="/quiz/**"
+                       access="hasAnyRole('ROLE_ANONYMOUS','ROLE_GUEST')" />
+
         <intercept-url pattern="/account"
                        access="hasAnyRole('ROLE_USER','ROLE_SUPERUSER')" />
 
