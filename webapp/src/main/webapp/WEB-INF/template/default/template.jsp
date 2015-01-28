@@ -1,3 +1,4 @@
+<%@ include file="../../init.jspf" %>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
 <tiles:importAttribute name="bodyTemplate" />
 <html>
